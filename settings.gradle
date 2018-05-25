@@ -1,0 +1,3 @@
+rootProject.name = 'swingheil-rest-api'
+
+includeBuild '../swingheil-service'

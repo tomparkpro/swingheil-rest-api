@@ -1,0 +1,43 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.1.RELEASE'
+        querydslVersion = '4.1.4'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+configurations {
+    querydslapt
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'pro.tompark.swingheil'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile ('pro.tompark.swingheil:swingheil-service')
+
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-devtools')
+    compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+    compile('javax.servlet:jstl')
+    compile('javax.servlet:javax.servlet-api')
+
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
