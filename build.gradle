@@ -30,7 +30,7 @@ repositories {
 
 
 dependencies {
-    compile project('swingheil-service')
+    compile project(':swingheil-service')
 
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-devtools')
