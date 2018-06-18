@@ -26,18 +26,19 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://dl.bintray.com/tomparkpro/swingheil-utils"
+    }
 }
 
 
 dependencies {
-    compile project(':swingheil-service')
-
+    compile('pro.tompark.swingheil:swingheil-service:0.1.1.RELEASE')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-devtools')
     compile('org.apache.tomcat.embed:tomcat-embed-jasper')
     compile('javax.servlet:jstl')
     compile('javax.servlet:javax.servlet-api')
-
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
