@@ -57,7 +57,7 @@ Manual deploy : push the Deploy Branch button
 - [x] initial setup springboot project
 - [x] setup MySQL DB
 - [x] add event CRUD RESTFul API
-- [ ] upload RESTFul API server to Heroku
+- [x] upload RESTFul API server to Heroku
 - [ ] add member feature
 - [ ] add login feature
 - [ ] add security feature
