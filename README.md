@@ -5,7 +5,7 @@
 swingheil-rest-api
 ======================
 
-The swingheil-rest-api is a RESTful API server for the SwingHeil Andoird and iOS app. It provides swing dance related Info in JSON format.
+The swingheil-rest-api is a RESTful API server for the SwingHeil Andoird app ([swingheil-android-app](https://github.com/tomparkpro/swingheil-android-app)) and iOS app ([swingheil-ios-app](https://github.com/tomparkpro/swingheil-ios-app)). It provides swing dance related Info in JSON format.
 It requires [swingheil-service](https://github.com/tomparkpro/swingheil-service) library.
 
 Check the API Server on Heroku [https://swingheil-rest.herokuapp.com](https://swingheil-rest.herokuapp.com/swingheil/v1/events)
