@@ -58,6 +58,7 @@ Manual deploy : push the Deploy Branch button
 - [x] setup MySQL DB
 - [x] add event CRUD RESTFul API
 - [x] upload RESTFul API server to Heroku
+- [ ] add Swagger UI for API Documentation
 - [ ] add member feature
 - [ ] add login feature
 - [ ] add security feature
